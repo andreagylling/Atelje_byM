@@ -14,7 +14,7 @@ export default {
   },
   methods: {
     loadAbout() {
-      fetch('/content/about.md')
+      fetch('Atelje_byM/content/about.md')
         .then(res => res.text())
         .then((data) => {
           const converter = new showdown.Converter({

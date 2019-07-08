@@ -1,18 +1,18 @@
 <template>
   <div class="home">
     <div class="top-div">
-      <MainPageContainer title="Ateljén" text="Modern Harmoni" button="Galleri" img="/img/studio1.jpg"/>
+      <MainPageContainer title="Ateljén" text="Modern Harmoni" button="Galleri" img="Atelje_byM/img/studio1.jpg"/>
       <InfoText />
     </div>
     <div class="middle-div">
       <div class="menu-div">
         <h2 class="price-title">Prislista</h2>
         <hr>
-        <Pricelist url="/content/menyklipp.md" />
-        <Pricelist url="/content/menyfarg.md" />
-        <Pricelist url="/content/menyhairtalk.md" />
+        <Pricelist url="Atelje_byM/content/menyklipp.md" />
+        <Pricelist url="Atelje_byM/content/menyfarg.md" />
+        <Pricelist url="Atelje_byM/content/menyhairtalk.md" />
       </div>
-      <MainPageContainer title="Inspiration" text="En ny look" button="Från Ateljén" img="/img/inspo1.jpg"/>
+      <MainPageContainer title="Inspiration" text="En ny look" button="Från Ateljén" img="Atelje_byM/img/inspo1.jpg"/>
     </div>
     <div class="bottom-div">
       <Hours />

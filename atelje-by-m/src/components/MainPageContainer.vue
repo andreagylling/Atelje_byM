@@ -1,12 +1,4 @@
 <template>
-    <!-- <img :src="img" class="image">
-    <div class="middle">
-        <div class="text">
-          <p>{{text}}</p>
-          <h1>{{title}}</h1>
-          <a href="/#/about">{{button}}</a>
-        </div>
-    </div> -->
 
     <div class="div-comp" v-bind:style="{ 'background-image': 'url(' + img + ')' }">
         <div class="text text-container">

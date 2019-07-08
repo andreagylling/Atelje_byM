@@ -17,7 +17,7 @@ export default {
   },
   methods: {
     loadHours() {
-      fetch('/content/oppettider.md')
+      fetch('Atelje_byM/content/oppettider.md')
         .then(res => res.text())
         .then((data) => {
           const converter = new showdown.Converter({
