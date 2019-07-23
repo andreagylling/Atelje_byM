@@ -62,7 +62,6 @@ export default {
   @media screen and (min-width: 835px){
     .hours-title{
       text-align: left;
-      /* margin-top: 40px; */
       margin-left: 60px
     }
 
