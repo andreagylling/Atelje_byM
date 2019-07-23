@@ -27,7 +27,6 @@ export default {
             tables: true,
           });
           this.content = converter.makeHtml(data);
-          console.log(this.content);
         });
     },
   },
