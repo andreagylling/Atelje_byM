@@ -54,7 +54,7 @@ export default {
   text-align: right;
 }
 
-@media screen and (min-width: 835px){
+@media screen and (min-width: 768px){
   .prislista {
   margin: 20px 20px;
 }

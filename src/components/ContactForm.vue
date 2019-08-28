@@ -71,7 +71,7 @@ button {
   border-radius: 3px;
 }
 
-@media screen and (min-width: 835px) {
+@media screen and (min-width: 768px) {
 
 .contact-form-container{
   margin-top: 20px;

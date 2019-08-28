@@ -1,9 +1,9 @@
 <template>
   <div class="nav-social">
-    <a class="nav_social-icon" href="https://www.facebook.com/">
+    <!-- <a class="nav_social-icon" href="https://www.facebook.com/">
       <i class="fab fa-facebook-f"></i>
-    </a>
-    <a class="nav_social-icon" href="https://www.instagram.com/">
+    </a> -->
+    <a class="nav_social-icon" href="https://www.instagram.com/ateljebym/?hl=sv">
       <i class="fab fa-instagram"></i>
     </a>
     <a class="nav_social-icon" href="https://www.gmail.com/">

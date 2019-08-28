@@ -38,7 +38,6 @@ export default {
 .about-container {
   margin: 100px 40px 100px 40px;
   border-top: 1px solid black;
-
 }
 
 .about-container p {
@@ -48,7 +47,7 @@ export default {
   font-size: 20px;
 }
 
-@media screen and (min-width: 835px){
+@media screen and (min-width: 768px){
   .about-container {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -56,6 +55,15 @@ export default {
 
   .about-container p {
     font-size: 18px;
+    line-height: 30px;
+
+  }
+}
+
+@media screen and (min-width: 992px){
+  .about-container p {
+    font-size: 20px;
+    line-height: 35px;
   }
 }
 </style>

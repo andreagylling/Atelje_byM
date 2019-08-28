@@ -59,7 +59,7 @@ export default {
     letter-spacing: 2px;
   }
 
-  @media screen and (min-width: 835px){
+  @media screen and (min-width: 768px){
     .hours-title{
       text-align: left;
       margin-left: 60px

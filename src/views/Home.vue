@@ -12,7 +12,7 @@
         <Pricelist url="Atelje_byM/content/menyfarg.md" />
         <Pricelist url="Atelje_byM/content/menyhairtalk.md" />
       </div>
-      <MainPageContainer title="Inspiration" text="En ny look" button="Från Ateljén" img="Atelje_byM/img/inspo1.jpg"/>
+      <MainPageContainer title="Inspiration" text="En ny look" button="Från Ateljén" img="Atelje_byM/img/inspo2.png"/>
     </div>
     <div class="bottom-div">
       <Hours />
@@ -49,7 +49,7 @@ export default {
   letter-spacing: 2px;
 }
 
-@media screen and (min-width: 835px) {
+@media screen and (min-width: 768px) {
 
   .home {
     margin: 0px 30px;
@@ -59,6 +59,7 @@ export default {
     display: grid;
     grid-template-columns: 50% 50%;
     margin-top: 50px;
+    justify-self: center;
   }
 
   .middle-div {

@@ -24,6 +24,7 @@ export default {
 <style scoped lang="scss">
 
 .div-comp{
+  position: relative;
   width: 100%;
   height: 500px;
   background-repeat: no-repeat;
@@ -39,7 +40,10 @@ export default {
 }
 
 .text-container {
-  padding-top: 50%
+  margin: auto;
+  position: absolute;
+  top: 200px; left: 0; bottom: 0; right: 0;
+
 }
 
 a {
